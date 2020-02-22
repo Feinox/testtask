@@ -1,4 +1,4 @@
-import socket, logging, pytest, requests
+import logging, pytest
 from client import Client
 
 
