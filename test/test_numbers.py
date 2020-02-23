@@ -16,7 +16,7 @@ def logger():
     return logger
 
 
-def test_mock_service(num, logger):
+def test_number(num, logger):
     if num > 1:
         # check for factors
         for i in range(2, num):
@@ -33,4 +33,4 @@ def test_mock_service(num, logger):
     else:
         logger.info(str(num) + " is not a prime number")
         print(num, "is not a prime number")
-
+    assert (num % i != 0)
