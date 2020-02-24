@@ -4,7 +4,7 @@ from client import Client
 
 @pytest.fixture
 def num():
-    resp = Client().request.text
+    resp = Client().response.text
     return int(resp)
 
 
