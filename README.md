@@ -14,6 +14,6 @@
 
 Process finished with exit code 0
 
-в ином случае:
+* в ином случае:
 
 test/test_numbers.py::test_number FAILED                                 [100%]384 is not a prime number
